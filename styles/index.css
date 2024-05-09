@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body {
+    background: linear-gradient(rgb(166, 164, 240), rgb(51, 20, 134)) no-repeat;
+  }
+h1{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+}
+li{
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-size: 16px;
+} 
+figcaption{
+   font-family: "Great Vibes", cursive;
+   font-weight: 800;
+   font-size: 32px;
+   color: #140438;
+   text-align: center;
+}
+
+h3{
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    color: rgb(100, 78, 4);
+    text-align: center;
+}
+h2{
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+  }
+.Logo, .Decor{
+    height: 110px;
+    margin: 20px;
+}
+.img_h3{
+    width: 1em;
+}
+.flexcontainer_header{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display:flex;
+    justify-content: flex-start;
+}
+.flexelement_main_nav{
+    flex-basis: 0;
+    min-height: 70vh;
+    min-width: 30vw;
+    margin-right: 20px;
+}
+h2{
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: rgb(14, 6, 95);
+    text-align: center;
+  }
+.flexelement_main_catalog{
+    flex-basis: 1;
+    min-height: 70vh;
+    min-width: 60vw;
+}
+  /* ul nav{
+    list-style-image: ('../assets/images/fairy.png');
+  } */
+  ul nav{
+    display: list-item;
+    list-style-image: ('../assets/images/fairy.png');
+    padding: 20px;
+  }
+  
+  nav li {
+    display: list-item;
+  }
+  
+  nav a {
+    color: rgb(221, 175, 25);
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #140438;
+  }
+
+  .flexelement_section_catalog{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  .flexelement_section_catalog img{
+    width: 15vw;
+    margin: 10px;
+    padding: 10px;
+  }
+  figure{
+    border: 5px solid white;
+    margin: 10px;
+
+}
+  .flexelement_section_catalog img:hover {
+    width: 20vw;
+  }
